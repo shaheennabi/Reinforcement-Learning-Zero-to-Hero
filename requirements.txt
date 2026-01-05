@@ -1,3 +1,5 @@
 numpy
 gymnasium
 opencv-python
+torch
+pygame
