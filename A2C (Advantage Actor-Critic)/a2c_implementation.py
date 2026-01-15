@@ -137,7 +137,7 @@ for update in range(num_updates):
     returns = []
     R = next_value   # bootstrap value
 
-    # Compute returns backwards
+    # Compute returns backwards ## the actual returns 
     for r in reversed(rewards):
         R = r + gamma * R
         returns.insert(0, R)
